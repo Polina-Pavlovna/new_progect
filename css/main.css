@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'GreatVibes-Regular';
+    src: url("fonts/GreatVibes-Regular.ttf");
+}
+body{
+    font-family: 'GreatVibes-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #0F141E;
+    background-color:  #F1F1F1;
+}
+
+main {
+    margin: 50px 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section {
+    width: 700px;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 15px;
+}
+
+.main-img {
+    width: 250px; 
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    display: inline;
+}
+
+.main-sos {
+    font-size: 13px;
+    text-decoration: none;
+    margin: 30px 0;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+}
+
+.main-sos p {
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ol {
+    padding-left: 50px;
+}
+
+.main-hobby {
+    background-color: #e4e8ff;
+}
+
+h2, ol, form p {
+    margin: 2px 16px;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+table {
+    width: 650px;
+    margin: 10px 15px;
+    text-align: left;
+}
+
+th {
+    font-size: 18px;
+}
+
+.main-curs {
+    background-color: #ede4ff;
+    height: 150px;
+    padding-top: 20px;
+}
+
+.main-connection {
+    background-color: #fee3ec;
+    padding: 20px 0;
+}
+
+form div{
+    margin: 5px 50px;
+}
+
+input, textarea {
+    border-radius: 20px;
+    background-color: #ede4ff;
+    margin-bottom: 2px;
+}
+
+form p {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+textarea {
+    background-color: rgb(233, 240, 255);
+    margin: 5px 50px;
+}
+
+.main-soo {
+    background-color: rgb(221, 248, 255);
+    min-height: 230px;
+    max-height: 1000px;
+    padding: 15px 0;
+}
+
+button {
+    background-color: rgb(100, 206, 255);
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0;
+    float: left;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 650px) {
+    body{
+        font-size: 12px;
+    }
+    .main-info {
+        text-align: center;
+    }
+}
